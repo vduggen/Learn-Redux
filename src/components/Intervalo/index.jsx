@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { alterNumberMin, alterNumberMax } from '../../store/actions/numeros';
+import { alterNumberMin, alterNumberMax } from '../../store/actions/numerosAction';
 
 const Intervalo = props => {
     const { min, max } = props;
