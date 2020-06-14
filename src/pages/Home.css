@@ -1,0 +1,113 @@
+body {
+    margin:0 10px;
+}
+
+body h1 {    
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+
+    margin:0;
+}
+
+#header-home {
+    height:15vh;
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.row {
+    display:flex;
+    justify-content: space-around;
+}
+
+.row:last-child {
+    margin-top:10px;
+}
+
+.row .card:nth-child(2) {
+    margin: 0 10px;
+}
+
+/* Colors Card */
+.Orange header {
+    background: rgb(173, 113, 0);
+}
+
+.Orange main {
+    background: orange;
+}
+
+.Purple header {
+    background: rgb(82, 0, 82);
+}
+
+.Purple main {
+    background: purple;
+}
+
+.Blue header {
+    background: rgb(0, 0, 170);
+}
+
+.Blue main {
+    background: blue;
+}
+
+.Green header {
+    background: rgb(0, 83, 0);
+}
+
+.Green main {
+    background: green;
+}
+
+/* Cards */
+
+.card {
+    flex:1;
+    width: 100%;
+}
+
+.card header {
+    height:40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card header h1 {
+    font: 500 20px 'Arial';
+}
+
+.card main {
+    height:60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card main h1 {
+    font-size: 20px;
+}
+
+.card main h1 span {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card label {
+    font: 300 20px 'Arial';
+    color: white;
+    margin-left:20px;
+    margin-right: 10px;
+}
+
+.card input {
+    width: 50px;
+}
